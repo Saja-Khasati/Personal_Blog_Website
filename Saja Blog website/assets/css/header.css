@@ -1,0 +1,118 @@
+.header{
+    grid-area: hd;
+}
+
+header .navbar{
+    position: fixed;
+    width:100%;
+    background-color: rgba(42, 165, 144, 0.769);
+   
+}
+
+
+.nav-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar .logo img{
+    border-radius: 50%;
+    width:80px;
+    margin-right:80px ;
+    margin-top:10px ;
+}
+
+.list{
+    width: 100%;
+    margin: auto;
+}
+
+ ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+ 
+}
+
+ .list ul li a{
+    color: navy;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight:bold;  
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.list ul li a:hover{
+    cursor:pointer;
+    color: rgb(12, 103, 12);
+    background-color: rgb(240, 226, 215);
+    padding: 5px;
+    border-radius: 20px;
+}
+/* ------------------------------------------------ */
+.header-content{
+    background-image: url("../images/background.jpg");
+    height: 100%;
+   background-size:cover;
+   background-position: 0 - 10px;
+}
+
+
+.header-content-item{
+    padding-top: 150px;
+    text-align: center;
+    line-height: 50px;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+
+.header-content-item p{
+    color:--secColor;
+    width: 40%;
+    margin:auto;
+    font-size: 30px;
+    font-weight: 1000;
+    text-transform: capitalize;
+}
+
+.header-content-item input[type=text] {
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  .header-content-item form button {
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 20px;
+    background: #ddd;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    /* padding-left: 200px; */
+  }
+
+.header .overlay{
+    background-color: rgba(141, 127, 127, 0.231);
+    height: 100%;
+}
+
+
+
+

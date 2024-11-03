@@ -1,0 +1,62 @@
+.post_card{
+    grid-area:post ;
+    background: linear-gradient(to right,
+            #c4f2ee 0%,
+            rgba(20, 152, 134, 0.304) 20%,
+            rgba(20, 152, 134, 0.667) 80%,
+            rgba(20, 152, 134, 0.619) 100%);
+    /* background-color: rgba(127, 210, 176, 0.838); */
+    text-align: center;
+   padding: 30px;
+}
+
+
+.post-card-image{
+    width: 200px;
+    height: 200px;
+}
+
+h3{
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+figure figcaption{
+    padding-bottom: 15px;
+}
+
+.card p{
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+
+.card p .sp{
+    text-transform: capitalize;
+}
+
+.card p .spn{
+    text-decoration: underline;
+}
+
+.card button{
+    background-color: rgb(20, 152, 134);
+    padding: 10px 30px;
+    margin-top: 15px;
+    border-radius: 5px;
+  
+
+}
+
+.card button a{
+    text-decoration: none;
+    font-weight: bold;
+    color: navy;
+    text-transform: capitalize;
+}
+
+#card5 p, #card6 p{
+    padding-bottom: 45px;
+}
+
+
+

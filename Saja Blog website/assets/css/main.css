@@ -1,0 +1,163 @@
+@import url("header.css");
+@import url("footer.css");
+@import url("homePagePostCard.css");
+@import url("homePageSubscribe.css");
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    text-transform: capitalize;
+}
+
+
+
+@media(min-width: 992px) {
+.container{
+   
+    display: grid;
+   grid-template-columns: auto;
+   grid-template-rows: 446px 1090px 446px 50px;
+   grid-template-areas: 
+   "hd"
+   "post"
+   "sb"
+   "ft";
+ 
+}
+
+.card_container{
+    width: fit-content;
+    margin: auto;
+    display: grid;
+   grid-template-columns: 300px 300px 300px;  
+   grid-template-rows: 450px 450px;
+   gap:50px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+
+}
+
+.card{
+    border: 2px double rgba(5, 7, 107, 0.815);
+    line-height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(239, 235, 230);
+   
+}
+}
+
+/* ------------------------------------------------------- */
+ 
+@media (min-width: 600px) and (max-width:991px) {
+    .container{
+        display: grid;
+        grid-template-columns: auto ;
+        grid-template-rows: 500px 1600px 446px 50px;
+        grid-template-areas: 
+        "hd"
+        "post"
+        "sb"
+        "ft";
+      
+     }
+     .card_container{
+            /* background-color: aqua; */
+            width:fit-content;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 300px 300px;
+            grid-template-rows: 450px 450px 450px;
+            gap:50px;  
+           
+  }
+ 
+
+.card{
+    border: 2px double rgba(5, 7, 107, 0.815);
+    line-height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(239, 235, 230);
+   
+}
+    } 
+/* -------------------------------------------------------------- */
+ 
+@media (max-width: 599px) {
+    .container{
+        display: grid;
+        grid-template-columns:600px;
+        grid-template-rows: 450px 3400px 446px 50px;
+        grid-template-areas: 
+        "hd"
+        "post"
+        "sb"
+        "ft";
+      
+     }
+     header .navbar{
+        position: fixed;
+        width:100%;
+        background-color: rgba(42, 165, 144, 0.769);
+       
+    }
+
+
+     .card_container{
+        /* background-color: aqua; */
+        width: fit-content;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 250px;  
+        grid-template-rows: 460px 460px 460px 460px 460px 460px;
+       gap:90px;  
+  }
+  #card5 p, #card6 p{
+    padding-bottom: 20px;
+}
+
+
+ 
+.card{
+    border: 2px double rgba(5, 7, 107, 0.815);
+    line-height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(239, 235, 230);
+   
+} 
+
+
+ ul{
+    display:grid;
+    grid-template-columns: 28% 28% 50% ;
+    grid-template-rows: 50% 50% ;
+    gap: 8px;
+}
+.logo{
+    width:30%;
+}
+
+.list{
+    width: 80%;
+}
+
+}
+  
+  
+    
+

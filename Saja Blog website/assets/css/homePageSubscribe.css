@@ -1,0 +1,36 @@
+.subscribe{
+    grid-area: sb;
+    text-align: center;
+    padding-top: 50px;
+    background: linear-gradient(to right,
+            rgba(20, 152, 134, 0.619) 0%,
+            rgba(20, 152, 134, 0.304) 20%,
+            rgba(20, 152, 134, 0.667) 80%,
+            #c4f2ee 100%);
+
+}
+
+form{  
+    padding: 20px;    
+}
+
+form .lbl{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+form .ipt{
+    width: 400px;
+    height: 30px;
+}
+
+form .txt{
+    width: 430px;
+    height: 80px;
+}
+
+button{
+    width: 100px;
+    padding: 10px;
+    font-size: 15px;
+}

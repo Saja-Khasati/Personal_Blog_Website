@@ -1,0 +1,79 @@
+
+.latest_blog{
+    grid-area: bm;
+    text-align: center;
+    padding: 30px;
+    line-height: 30px;
+    background: linear-gradient(to right,
+    rgba(20, 152, 134, 0.619) 0%,
+    rgba(20, 152, 134, 0.304) 20%,
+    rgba(20, 152, 134, 0.667) 80%,
+    #c4f2ee 100%);
+}
+
+.latest_blog .quotes{
+    padding: 10px;
+    font-family: "Give You Glory", cursive;
+    font-size: 15px;
+    text-shadow: 1px 1px 2px rgb(20, 171, 75);
+}
+
+.latestBlog_container{
+    width: 90%;
+    margin: auto;
+    /* background-color: aqua; */
+}
+
+.latestBlog_container .desc{
+    font-family: "Mirza", serif;
+    font-size: 18px;
+    
+}
+
+.latestBlog_container h3{
+    color: rgb(10, 110, 10);
+    text-transform: capitalize;
+}
+
+.latestBlog_container .read a{
+    text-decoration: none;
+    font-size: 15px;
+    color: blue;
+}
+
+.read{
+    background-color: rgba(10, 110, 10, 0.473);
+    padding: 8px;
+    margin-top: 10px;
+}
+
+.project{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+    margin: 30px;
+  
+}
+
+.project .project_desc{
+    /* border: 2px dotted rgba(5, 7, 107, 0.815); */
+    padding:50px;
+    line-height: 30px;
+    width: 50%;
+}
+
+.project .project_img{
+    width: 50%;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.project .project_img figure img{
+    width: 400px;
+    height: 300px;
+    border:2px dotted rgba(5, 7, 107, 0.815);
+    border-radius: 30px;
+}
+
+
+

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Blog</title>
+    <!--font awesome version6-->
+    <link href="assets/css/all.min.css" rel="stylesheet" />
+
+    <!--custom css-->
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <!--start header section-->
+      <header class="header">
+        <nav class="navbar">
+          <div class="nav-container">
+            <div class="logo">
+              <img src="assets/images/logo.jpg" />
+            </div>
+            <div class="list">
+              <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#postcards">post cards</a></li>
+                <li><a href="BlogPost.html" target="_blank">blog</a></li>
+                <li><a href="#sub">subscribe</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="header-content">
+          <div class="overlay">
+            <div class="header-content-item">
+              <h1>welcome to my blog</h1>
+              <p>enjoy reading!</p>
+              <!-- <form>
+                <input type="text" placeholder="Search.." name="search"/>
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form> -->
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--end header section-->
+
+      <!--start post card section-->
+      <section class="post_card" id="postcards">
+        <h2>post cards</h2>
+        <div class="card_container">
+          <div class="card" id="card1">
+            <h3>first card</h3>
+            <figure>
+              <img
+                src="assets/images/new-blog-post.jpg"
+                alt="my new blog post image"
+                class="post-card-image"
+              />
+              <figcaption>Fig.1 : new-blog-post</figcaption>
+            </figure>
+            <p>
+              <span class="sp">this</span> is my
+              <span class="spn">curriculum vitae</span>,<br/>
+              <span class="sp">my</span> new blog post.
+            </p>
+            <button><a href="BlogPost.html" class="button">read</a></button>
+          </div>
+
+          <div class="card" id="card2">
+            <h3>second card</h3>
+            <figure>
+              <img
+                src="assets/images/top-view-skills.jpg"
+                alt="my skills image"
+                class="post-card-image"
+              />
+              <figcaption>Fig.2 : skills</figcaption>
+            </figure>
+            <p>
+              <span class="sp">this</span> is my
+              <span class="spn">top view skills</span>,<br/>
+              Lorem ipsum dolor sit amet.
+            </p>
+            <button>
+              <a href="assets/images/sk.JPG" class="button">read</a>
+            </button>
+          </div>
+
+          <div class="card" id="card3">
+            <h3>third card</h3>
+            <figure>
+              <img
+                src="assets/images/my-projects.jpg"
+                alt="my projects image"
+                class="post-card-image"
+              />
+              <figcaption>Fig.3 : projects</figcaption>
+            </figure>
+            <p>
+              <span class="sp">this</span> is my
+              <span class="spn">top projects</span>,<br/>
+              Lorem ipsum dolor sit amet.
+            </p>
+            <button>
+              <a href="https://github.com/Saja-Khasati" class="button">read</a>
+            </button>
+          </div>
+
+          <div class="card" id="card4">
+            <h3>forth card</h3>
+            <figure>
+              <img
+                src="assets/images/Experience.jpg"
+                alt="experience image"
+                class="post-card-image"
+              />
+              <figcaption>Fig.4 : experience</figcaption>
+            </figure>
+            <p>
+              <span class="sp">this</span> is my
+              <span class="spn">experience</span>,<br />
+              Lorem ipsum dolor sit amet.
+            </p>
+            <button>
+              <a href="assets/images/Exp.JPG" class="button">read</a>
+            </button>
+          </div>
+
+          <div class="card" id="card5">
+            <h3>fifth card</h3>
+            <figure>
+              <img
+                src="assets/images/perfume plus project.jpg"
+                alt="secondary project image"
+                class="post-card-image"
+              />
+              <figcaption>Fig.5 : perfume plus store</figcaption>
+            </figure>
+            <p>
+              <span class="sp">my</span> secondary project
+              <span class="spn">perfume plus store</span>.
+            </p>
+            <button>
+              <a
+                href="https://www.facebook.com/profile.php?id=61562903324740"
+                target="_blank"
+                class="button"
+                >read</a
+              >
+            </button>
+          </div>
+
+          <div class="card" id="card6">
+            <h3>sixth card</h3>
+            <figure>
+              <img
+                src="assets/images/hobbies.jpg"
+                alt="hoppies image"
+                class="post-card-image"
+              />
+              <figcaption>Fig.6 : hobbies</figcaption>
+            </figure>
+            <p>
+              <span class="sp">my</span> hobbies Lorem ipsum dolor sit amet.
+            </p>
+            <button><a href="#" class="button">read</a></button>
+          </div>
+        </div>
+      </section>
+      <!--end post card section-->
+
+      <!--start subscribe section-->
+      <section class="subscribe" id="sub">
+        <h2>Subscribe</h2>
+        <form>
+          <label class="lbl" for="name">name:</label>
+          <input
+            class="ipt"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter Name"
+            required
+          />
+          <br />
+          <br />
+          <label class="lbl" for="email">email:</label>
+          <input
+            class="ipt"
+            type="email"
+            id="email"
+            name="email"
+            placeholder=" Enter Gmail"
+            required
+          />
+          <br />
+          <br />
+          <label class="lbl" for="message">message:</label>
+          <textarea
+            class="txt"
+            id="message"
+            name="message"
+            placeholder="Enter Massage"
+            required
+          ></textarea>
+          <br />
+          <br />
+          <button type="submit">Send</button>
+        </form>
+      </section>
+      <!--end subscribe section-->
+
+      <!--start footer section-->
+      <footer>
+        <div class="footer">&copy; copyright saja blog 2024</div>
+      </footer>
+      <!--end footer section-->
+    </div>
+  </body>
+</html>
